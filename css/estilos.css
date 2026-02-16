@@ -1,0 +1,90 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9CEEF ;
+}
+header{
+    height: 10%;
+    background-color: #F9CEEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:  20%;
+
+}
+
+.img-logo{
+    width: 10%;
+    
+    
+}
+.portada-index{
+    width: 100%;
+    margin: auto;
+   
+
+}
+main .imagen .foto-quesillo{
+   display: block;
+   margin: auto;
+   width: 30%;
+   height: 30%;
+   border-radius: 30%;
+   object-fit: cover;
+   margin-top: 15px; ;
+   margin-bottom: 15px;
+}
+header nav ul{
+    
+    list-style: none;
+    display: flex;
+    color: rgb(255, 255, 255);
+    gap: 20%;
+}
+
+main .textos{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0 20px;
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+
+}
+    
+main .textos .titulo-ppal{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    
+}
+
+main .titulo-h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+main .parrafo-p2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 30px 30px 400px 30px ;
+    margin-top: 20px ;
+    display: grid;
+    gap: 20px;
+
+}
+
+footer .derechos{
+    position: sticky;
+    text-align: center ;
+    
+
+}
