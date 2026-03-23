@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>La Dulceria de Nelly | Reposteria artesanal
     </title>
+    <meta name="description" content="En el Recetario de La Dulcería de Nelly, abrimos las puertas de nuestro taller para compartir contigo las fórmulas mágicas que dan vida a nuestros postres. Este no es solo un índice de ingredientes; es un compendio de memorias y técnicas diseñado tanto para principiantes como para reposteros aficionados.">
    
 </head>
 <body>    
@@ -16,57 +17,72 @@
         <!-- etiqueta para las img -->
 
 
-        <img src="../img/Logo.jpg" class="img-logo" >
+       
    
         
       <!-- etiqueta para una lista desordenada -->
-       <nav class="menu-navegacion">
-            <ul >
-                <li>
-                    <a href="../index.html">
-
-                        Inicio 
-                    </a>
-                    
-                   
-                </li>
-                
-                <li>
-                    <a href="../pages/recetas.html">
-                        Recetas
-                    </a>
-                    
-                </li>
-                <li>
-                    <a href="../pages/contacto.html">
-                        Contacto
-                    </a>
-                    
-                </li>
-            </ul>
-     
-        </nav>
+        <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">La Dulceria de Nelly | Reposteria artesanal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/recetas.html">Recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
     </header>
     
 
     <!-- etiqueta para el contenido principal-->
 
     <main class="div-contacto">
-        <!-- titulo de mi pagina -->
-       <img src="../img/inicio.png" class="portada-index">
+        
+       <img src="../img/inicio.png" class="portada-index" alt="portada nombre la dulceria de nelly con imagen de diferentes dulces nacionales">
+       <!--etiqueta para titulo-->
         <h1 class="titulo-ppal"> Contactos | La Dulceria de Nelly
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
        </h1>
         <!-- etiqueta para los parrafos -->
         </div>
-        <p class="parrafo-p"> </p>
+        <p class="parrafo-p"> Gracias por tu interés. Si deseas solicitar un presupuesto o conocer más sobre mis servicios, completa el formulario a continuación o envíame un correo electrónico. Estaré encantado de analizar cómo podemos trabajar juntos.</p>
+    
+        <form action="" class="ms-5" >
+    <div class="mx-auto p-2" style="width: 200px;">
+        <label for="">Tu nombre</label>
+            <input type="text" name="correo" >
+            <label for="">Correo Electronico</label>
+            <input type="email" name="mensaje">
+            <label for="">Mensaje</label>
+            <input type="text" name="mensaje" >
+            <label for=""></label>
+            <input type="button" value="enviar" class="mt-3" style="width:100px">
     </div>
+        </form>
     </main>
 
     <!-- etiqueta para el pie de pagina-->
 
    
     <footer>
-        <img src="../img/footer.jpg" class="footer">
+    <img src="img/footer.jpg" class="footer" alt="imagen donde muestra nuestros contactos, redes sociales y derechos reservados.">
     </footer>
     </footer>
 </body>

@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Recetario | La Dulceria de Nelly | Reposteria artesanal</title>
     <link rel="icon" type="img/jpg" href="../img/Logo.jpg">
+    <meta name="description" content="En el Recetario de La Dulcería de Nelly, abrimos las puertas de nuestro taller para compartir contigo las fórmulas mágicas que dan vida a nuestros postres. Este no es solo un índice de ingredientes; es un compendio de memorias y técnicas diseñado tanto para principiantes como para reposteros aficionados.">
 </head>
 <body>
 
@@ -14,40 +15,40 @@
      <header>
         <!-- etiqueta para las img -->
      
-    
-        <img src="../img/Logo.jpg" class="img-logo">
+    >
       
       <!-- etiqueta para menu de navegacion -->
        <div> </div>
 
         <!-- etiqueta para una lista desordenada -->
-        <nav class="menu-navegacion">
-            <ul>
-                <li>
-                    <a href="../index.html">
-
-                         Inicio
-                    </a>
-                    
-                   
-                </li>
-                
-                <li>
-                    <a href="../pages/recetas.html">
-
-                        Recetas
-                    </a>
-                    
-                </li>
-                <li>
-                    <a href="../pages/contacto.html">
-
-                        Contacto
-                    </a>
-                    
-                </li>
-            </ul>
-        </nav>
+       <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">La Dulceria de Nelly | Reposteria artesanal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/recetas.html">Recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+        
     </header>
     
 
@@ -55,103 +56,114 @@
 
     <main class="div-recetas">
         <!-- titulo de mi pagina -->
-       <img src="../img/inicio.png" class="portada-index">
+       <img src="../img/inicio.png" class="portada-index" alt="portada nombre la dulceria de nelly con imagen de diferentes dulces nacionales">
 
     <div class="textos">
-       <h1 class="titulo-ppal"> Recetarios | La Dulceria de Nelly
+       <h1 class="display-1"> Recetarios | La Dulceria de Nelly
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
        </h1>
     </div>
         <!-- etiqueta para los parrafos -->
-    <div class="titulo-h2">
-        <h2 > QUESILLO</h2>
+         <div class="card ms-4" style="max-width: 95%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../img/Quesillo.jpg" class="img-fluid rounded-start" alt="dulce conocido por su delicia acompanandonos en cumpleanos y tardes de merienda">
     </div>
-    </div>
-        <p class="parrafo-p">El Quesillo venezolano es un postre tradicional, similar a un flan pero más denso y cremoso, caracterizado por su textura porosa y cobertura de caramelo dorado. Se elabora horneando a baño María una mezcla de leche condensada, huevos, leche líquida, vainilla y a veces ron, sin contener queso real. Es el dulce icónico de las celebraciones en Venezuela. </p>
-    </div>
-     <div class="titulo-h2-2">
-        <h2 > Ingredientes</h2>
-    </div>
-        <p class="parrafo-p">5-6 huevos, 1 lata leche condensada (397 g), 1 lata leche. La misma de la leche condensada, 1 chorrito esencia de vainilla, 1 chorrito ron (Opcional).
-        </p>
-    <div class="titulo-h2-2">
-        <h2 > Caramelo</h2>
-    </div>
+    <div class="col-md-8">
+      <div class="titulo-h2-2">
+        <h2 class="card-title">QUESILLO</h2>
+        <p class="parrafo-p">El Quesillo venezolano es un postre tradicional, similar a un flan pero más denso y cremoso, caracterizado por su textura porosa y cobertura de caramelo dorado. Se elabora horneando a baño María una mezcla de leche condensada, huevos, leche líquida, vainilla y a veces ron, sin contener queso real. Es el dulce icónico de las celebraciones en Venezuela.</p>
+        <h3 > Ingredientes</h3>
+         <p class="parrafo-p">5-6 huevos, 1 lata leche condensada (397 g), 1 lata leche. La misma de la leche condensada, 1 chorrito esencia de vainilla, 1 chorrito ron (Opcional).
+        <h3 > Caramelo</h3>
         <p class="parrafo-p">6 cucharadas azúcar.</p>
-    <div class="titulo-h2-2">
-        <h2 > Paso a paso</h2>
-    </div>
+        <h3 > Paso a paso</h3>
         <p class="parrafo-p">1- En una olla a fuego medio, agregamos el azúcar y esperamos que se derrita por completo. Luego lo pasamos al molde y lo untamos por todas las paredes con cuidado.</p>
         <p class="parrafo-p">2- Mientras se enfría el caramelo en el molde, agregamos todos los ingredientes en una licuadora y mezclamos por un minuto. Luego, agregamos la mezcla al molde y tapamos. Yo utilicé estos moldecitos y salieron 3 quesillos y tapé los moldes con papel aluminio..</p>
         <p class="parrafo-p">3- En una olla grande (donde quepa bien el molde), agregamos agua que quede a la mitad del molde (una vez que hierva el agua, bajamos el fuego) y tapamos por una hora.</p>
         <p class="parrafo-p">4- Pasada una hora, sacamos el molde con cuidado y para saber que está listo, pinchamos con un palillo; este debería salir limpio. Esperamos que el molde este tibio, despegamos el quesillo de todas las paredes y volteamos en un plato para luego dejarlo en la nevera unas cuatro horas o preferiblemente dejarlo hasta el día siguiente.</p>
+      </div>
     </div>
-     <div class="imagen">
-        <img src="../img/quesillo2.jpg" class="foto-quesillo">
+</div>
+  
+</div>
+        <!-- etiqueta para los parrafos -->
+         <div class="card ms-4" style="max-width: 95%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../img/cachitos.jpeg" class="img-fluid rounded-start" alt="conocido como el desayuno de nuestra infancia, pan relleno de jamon">
     </div>
-     <div class="titulo-h2">
-        <h2 > TRES LECHES</h2>
+    <div class="col-md-8">
+      <div class="titulo-h2-2">
+        <h2 class="card-title">CACHITOS</h2>
+        <p class="parrafo-p">Es un panecillo suave y esponjoso, con forma de medialuna o croissant, tradicionalmente relleno de jamón ahumado picadito, que funciona como uno de los desayunos o meriendas más icónicos y populares del país. Se caracteriza por su masa enriquecida y su característico sabor dulce-salado, siendo un alimento indispensable en las panaderías.</p>
+        <h3 > Ingredientes</h3>
+         <p class="parrafo-p">300 gr harina 000,2 huevos, 100 cc leche tibia, 1 cda sopera de manteca pomada, 10 gr levadura, 20 gr azúcar, 200 gr jamón(yo usé salchichón primavera), 2 cditas sal.</p>
+        <h3 > Paso a paso</h3>
+        <p class="parrafo-p">1- Disolver la levadura en la leche tibia junto con el azúcar, mezclar y dejar reposar por 10min.</p>
+        <p class="parrafo-p">2- Aparte, en un bol mezclar los huevos y la manteca pomada, hasta obtener una mezcla homogénea. En otro bol o sobre la mesada colocar la harina con la pizca de sal, hacer un huequito en el centro y agregar allí la levadura activada y la mezcla de huevo realizada anteriormente, empezar a revolver de a poco hasta obtener una masa homogénea, si es necesario añadir más harina. Amasar durante 15 minutos hasta conseguir una masa suave y elástica. </p>
+        <p class="parrafo-p">3- Dejar descansar la masa en un lugar cálido, durante 1 hora o hasta que doble su volumen. Transcurrido este tiempo, en una superficie enharinada estirar la masa y cortar triángulos(como para hacer medias lunas) Agregar en el centro de cada triángulo el jamón cortado finito y pincelar los bordes con un poco de agua o leche, hacer un rollito desde el borde más grande hasta la punta. </p>
+        <p class="parrafo-p">4- Colocarlos en una bandeja enmantecada y enharinada, dejar letdar por 30min. Pincelarlos con huevo batido o leche y llevar a horno moderado precalentado durante 15 minutos aproximadamente o hasta que estén doraditos. </p>
+        <p class="parrafo-p">5- También quedarían muy ricos con queso</p>
+       
+      </div>
     </div>
+</div>
+ </div>
+        <!-- etiqueta para los parrafos -->
+         <div class="card ms-4" style="max-width: 95%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../img/majarete.jpg" class="img-fluid rounded-start" alt="dulce de harina de maiz, vendido en pueblos venezolanos">
     </div>
-        <p class="parrafo-p">El tres leches es un postre tradicional de América Latina que consiste en un bizcocho esponjoso (generalmente un bizcocho genovés) que se baña con una mezcla de tres tipos de productos lácteos. A diferencia de otros pasteles, su textura es extremadamente húmeda pero no se deshace, ya que el bizcocho está diseñado para absorber los líquidos como una esponja.</p>
+    <div class="col-md-8">
+      <div class="titulo-h2-2">
+        <h2 class="card-title">MAJARETE</h2>
+        <p class="parrafo-p">Es un postre tradicional venezolano, típico de la época de Semana Santa, consistente en un pudín cremoso de coco y maíz (harina o maíz tierno) con una textura similar al flan. Se caracteriza por su intenso sabor a coco, endulzado con papelón (panela) y especiado con canela en rama y clavo de olor, servido frío con canela en polvo por encima.</p>
+        <h3 > Ingredientes</h3>
+         <p class="parrafo-p">500 gr harina de maíz precocida, 2 latas (400 gr) c/u de leche de coco, 1/2 lata leche condensada, 1 astilla de canela, 1/2 lata leche líquida, 300 gr azúcar mascabo con Canela molida</p>
+        <h3 > Paso a paso</h3>
+        <p class="parrafo-p">1- En una olla colocar las leches, azúcar mascabo y la astilla de canela dejar hervir hasta que se disuelva el azúcar y cambie un poco de color.</p>
+        <p class="parrafo-p">2- Luego de esto poner fuego mínimo retirar la canela y agregar en forma de lluvia la harina de maíz y con cuchara de madera batir enérgicamente por día minutos. </p>
+        <p class="parrafo-p">3- Servir en caliente en platos hondos espolvorear con canela molida dejar enfriar bien y a disfrutar.</p>
+      </div>
     </div>
-     <div class="titulo-h2-2">
-        <h2 > Ingredientes</h2>
+</div>      
+</div>
+        <!-- etiqueta para los parrafos -->
+         <div class="card ms-4" style="max-width: 95%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../img/tequenos.jpg" class="img-fluid rounded-start" alt="desayuno, merienda, cena, pasapalo venezolano que ahora ha llegado a zonas internacionales a enamorar con su sabor">
     </div>
-        <p class="parrafo-p">(PARA EL BIZCOCHUELO) 6 Huevos, 180 gr Azúcar, 180 gr Harina, 1 Cdita Esencia de vainilla.
-        </p>
-        <p class="parrafo-p">(PARA HUMEDECER) 150 gr Crema, 150 gr Leche Condensada, 250 ml Leche.</p>
-        <p class="parrafo-p">(PARA DECORAR) 200 gr Crema, 4 Cucharadas azúcar.</p>
-   
-    <div class="titulo-h2-2">
-        <h2 > Paso a paso</h2>
+    <div class="col-md-8">
+      <div class="titulo-h2-2">
+        <h2 class="card-title">TEQUEÑOS</h2>
+        <p class="parrafo-p">es el pasapalo (aperitivo) más emblemático de Venezuela: un bastón de queso blanco semiduro envuelto en una masa de harina de trigo, frito hasta quedar crujiente y dorado. Es fundamental en fiestas y celebraciones, originado en Los Teques, estado Miranda, y popularizado desde la década de 1960. </p>
+        <h3 > Ingredientes</h3>
+         <p class="parrafo-p">320 g Queso Provoleta (O llanero si conseguís), C/n Aceite para freír</p>
+         <h3 > Para la masa</h3>
+         <p class="parrafo-p">500 g Harina 0000, 125 ml Agua tibia, 10 g Sal, 125 ml Leche, 35 g Azúcar, 15 ml Aceite</p>
+        <h3 > Paso a paso</h3>
+        <p class="parrafo-p">1- Para la masa, vamos a calentar los líquidos (Sin llegar a hervir, deben estar tibios). En la mesada, armamos una corona con los secos. </p>
+        <p class="parrafo-p">2- Vertemos los líquidos en el centro y unimos hasta obtener una masa suave y homogénea. La dejamos descansar tapada 30 min. </p>
+        <p class="parrafo-p">3- Mientras, cortamos bastones de queso del tamaño y grosor deseado.</p>
+        <p class="parrafo-p">4-Estiramos la masa y cortamos tiras largas de 1 cm de ancho.  </p>
+        <p class="parrafo-p">5- Para enrollarlos, comenzamos desde la punta y envolvemos verticalmente, luego comenzamos a enrollar la pieza con la masa. (Sugerencia, ir estirando con las manos la masa mientras enrollamos el tequeño). </p>
+        <p class="parrafo-p">6- Para que queden bien sellados, aplastar las puntas contra la mesada y luego los laterales haciendo rodar el tequeño sobre la mesada.</p>
+        <p class="parrafo-p">7- Se recomienda guardarlos un rato en la heladera antes de freír, aún que podes hacerlos directamente si estás muy tentado.</p>
+        <p class="parrafo-p">8- Freír hasta que estén dorados. Y disfrutar.</p>
+       
+      </div>
     </div>
-        <p class="parrafo-p">1- Precalentar el horno a 180°.</p>
-        <p class="parrafo-p">2- Mezclar los huevos con el azúcar y la esencia de vainilla hasta punto letra.</p>
-        <p class="parrafo-p">3- Agregar la harina con movimiento envolventes para no generar aire y verter en un molde dejando 1 cm como mínimo.</p>
-        <p class="parrafo-p">4- Llevar al horno a 180° por 40 min, sacarlo y hacerle muchos agujeros por todos lados pinchando con un palito de brochettes o lo que tengas.</p>
-        <p class="parrafo-p">5- Mezclar todas las leches hasta que sea un líquido homogéneo y verter sobre el bizcochuelo, déjalo reposar por lo menos 2hs antes de comer.</p>
-        <p class="parrafo-p">6-Por último batir la crema con el azúcar hasta punto chantilly y decorar a gusto.</p>
-    </div>
-     <div class="imagen">
-        <img src="../img/tres leche.jpg" class="foto-quesillo">
-    </div>
-       <div class="titulo-h2">
-        <h2 > GOLFEADO</h2>
-    </div>
-    </div>
-        <p class="parrafo-p">es un pan dulce tradicional de Venezuela, específicamente de la región central (Caracas y sus alrededores). Se asemeja visualmente a un rollo de canela, pero tiene una identidad de sabor única basada en el contraste entre lo dulce y lo salado.</p>
-    </div>
-     <div class="titulo-h2-2">
-        <h2 > Ingredientes</h2>
-    </div>
-        <P class="parrafo-p">1 kg harina 000, 30 gr levadura fresca, 300 ml leche tibia, 300 gr azúcar, 2 huevos, 50 ml aceite, c/n Anís dulce.
-        <p class="parrafo-p">(PARA EL RELLENO)</p>
-        <p class="parrafo-p">50 gr manteca derretida, 300 gr azúcar mascabo, Queso llanero rallado</p>
-
-        
-   
-    <div class="titulo-h2-2">
-        <h2 > Paso a paso</h2>
-    </div>
-        <p class="parrafo-p">1- En la mitad de la leche disolvemos la levadura, una cucharada de azúcar y dos cucharadas de harina tomadas del total de la receta mezclar tapar y dejar reposar.</p>
-        <p class="parrafo-p">2- Pasado este tiempo en un bol colocar la harina hacer un hueco en el centro y colocar allí azúcar, huevos, aceite, anís y la levadura reposada ir mezclando y la otra mitad de la leche ir agregando a medida que la masa la pida.</p>
-        <p class="parrafo-p">3- Amasar hasta que la masa se ponga lisa y elástica debe quedar una masa suave dejar reposar tapada hasta wue duplique su tamaño.</p>
-        <p class="parrafo-p">4- Cuando haya duplicado su volumen pasarla a la mesada desgasificar, cortar la masa en dos uno de los trozos taparla y la otra estirarla en forma rectangular.</p>
-        <p class="parrafo-p">5- Pincelamos el rectángulo de masa con la manteca derretida luego extendemos el azúcar mascabo encima y el queso rallado enrollamos haciendo presión cortamos trozos de regular tamaño no deben ser muy gruesos.</p>
-        <p class="parrafo-p">6- Los colocamos en una bandeja engrasada sin mucha separacióny dejamos reposar tapados hasta wue dupliquen.</p>
-        <p class="parrafo-p">7- Luego se pincelan con un almíbar hecho con azúcar mascabo y agua en partes iguales y se llevan a horno precalentado a 180° por 40 minutos al sacarlos del horno esparcir queso llanero aún calientes.</p>
-    </div>
-     <div class="imagen">
-        <img src="../img/golfeado.jpg" class="foto-quesillo">
-    </div>
-
+</div>
     </main>
 
     <!-- etiqueta para el pie de pagina-->
 
     <footer>
        <footer>
-        <img src="../img/footer.jpg" class="footer">
+       <img src="img/footer.jpg" class="footer" alt="imagen donde muestra nuestros contactos, redes sociales y derechos reservados.">
     </footer>
     </footer>
 </body>
